@@ -1,0 +1,66 @@
+html {
+  height:100%;
+}
+
+body{
+  background-color: #F7F7F7;
+  height: 100%;
+  margin: 0;
+}
+
+.my_name {
+  position: absolute;
+  left: 5%;
+  /* top: 70%; */
+  top: 60%;
+  /* color: #353535; */
+  font-family: 'Archivo', sans-serif;
+  font-size: 4.2vw;
+  transition: opacity 0.7s ease-out;
+}
+
+.to_close {
+  float:left;
+  background-color: blue;
+  width:100px;
+  height:100px;
+}
+
+.tabs {
+  height:100%;
+  float: right;
+  display:flex;
+}
+
+.works {
+  background-color:pink;
+  width:4vw;
+  height: 100%;
+  transition: width 0.8s ease-out;
+}
+
+.about {
+  background-color:yellow;
+  width:4vw;
+  height: 100%;
+  transition: width 0.8s ease-out;
+}
+
+.contact {
+  background-color:green;
+  width:4vw;
+  height: 100%;
+  transition: width 0.8s ease-out;
+}
+
+/* .works:hover {
+  width: 80vw;
+}
+
+.about:hover {
+  width: 80vw;
+}
+
+.contact:hover {
+  width: 80vw;
+} */
